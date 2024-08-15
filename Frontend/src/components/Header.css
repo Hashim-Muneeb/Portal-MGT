@@ -1,0 +1,25 @@
+.header {
+    background-color: #8806f9; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .logo h1 {
+    margin: 0;
+    color: white;
+  }
+  
+  .header nav .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-right: 80px;
+  }
+  
+  .header nav .nav-link:hover {
+    text-decoration: underline;
+  }
+  

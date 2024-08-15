@@ -1,0 +1,39 @@
+/* Footer Styling */
+.footer {
+  background-color: #8806f9; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  /* z-index: 1000; Ensure it stays on top but not overlap main content */
+}
+
+/* Main Content Styling */
+.main-content {
+  padding-bottom: 80px; /* Adjust this value based on the height of your footer */
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer nav {
+  margin-top: 10px;
+}
+
+.footer-link {
+  color: #f7f8f7; 
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+ .abc124{
+    background-image: url('../../assest/bggg.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    min-height: 77.5svh;
+}

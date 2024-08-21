@@ -1,37 +1,64 @@
-/* Footer Styling */
 .footer {
-  background-color: #8806f9; 
-  color: white;
+  background-color: #a927fa; 
   padding: 20px;
   text-align: center;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  
-  /* z-index: 1000; Ensure it stays on top but not overlap main content */
+  color: white;
 }
 
-/* Main Content Styling */
-.main-content {
-  padding-bottom: 80px; /* Adjust this value based on the height of your footer */
+.footer-top {
+  margin-bottom: 10px;
 }
 
-.footer-content {
+.footer-top p {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+
+}
+
+.footer-bottom {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.footer nav {
-  margin-top: 10px;
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-icon {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-icon:hover {
+  color: #c6a3c2; 
+}
+
+.footer-description {
+  flex: 1;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.footer-description p{
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  gap: 10px;
 }
 
 .footer-link {
-  color: #f7f8f7; 
+  color: white; 
   text-decoration: none;
-  margin: 0 10px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .footer-link:hover {

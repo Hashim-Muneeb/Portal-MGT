@@ -5,13 +5,13 @@ import Routers from '../src/routers/Routers';
 
 function App() {
   return (
-    <>
-    <Header/>
-    <div>
-        <Routers/>
+    <div className="app-container">
+      <Header />
+      <div>
+        <Routers />
+      </div>
+      <Footer />
     </div>
-    <Footer />
-  </>
   );
 }
 

@@ -1,0 +1,24 @@
+.leave-approval-page {
+    padding: 20px;
+    background-image: url('../../assest/bggg.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    min-height: 77.5svh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+

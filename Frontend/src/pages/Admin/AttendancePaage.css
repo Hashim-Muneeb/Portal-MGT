@@ -1,0 +1,52 @@
+
+.attendance-page-container {
+    padding: 20px;
+    background-image: url('../../assest/bggg.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    min-height: 77.5svh;
+}
+
+.students-table table, .attendance-records table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.students-table th, .attendance-records th,
+.students-table td, .attendance-records td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.students-table th, .attendance-records th {
+    background-color: #f4f4f4;
+}
+
+.students-table tr:hover, .attendance-records tr:hover {
+    background-color: #f1f1f1;
+}
+
+.abd.button {
+
+    width: 120px; 
+    height: 130px;
+    cursor: pointer;
+    border: none;
+    background-color: #18fa18; 
+    color: rgb(21, 20, 20);
+    border-radius: 10px;
+    font-size: 14px; 
+    text-align: center; 
+    line-height: 40px; 
+    transition: background-color 0.3s ease;
+    display: inline-block; 
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.abd.button:hover {
+    background-color: #5befe3; 
+}
+
